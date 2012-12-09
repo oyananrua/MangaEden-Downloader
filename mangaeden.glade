@@ -13,7 +13,7 @@
     <property name="title" translatable="yes" comments="Window title">MangaEden Downloader</property>
     <property name="default_width">460</property>
     <property name="default_height">500</property>
-    <property name="icon">data/cpu-g.png</property>
+    <property name="icon">icon.png</property>
     <signal name="destroy" handler="on_mainwindow_destroy" swapped="no"/>
     <child>
       <object class="GtkVBox" id="vbox1">

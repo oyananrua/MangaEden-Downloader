@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  senza nome.py
+#  mangaeden.py
 #  
-#  Copyright 2012 thezero <silvethebest@yahoo.it>
+#  Copyright 2012 TheZero <silvethebest at yahoo dot it>
 #
 #  Some part of code is
 #  Copyright © 2009  Fotis Tsamis <ftsamis at gmail dot com>
@@ -28,6 +28,7 @@
 
 import os, sys, requests, json, string
 from pprint import pprint
+from threading import Thread
 try:
     import pygtk, gtk, gtk.glade, gobject, webkit
     pygtk.require("2.0")
@@ -36,10 +37,7 @@ except:
            installed in your system in order to run MangaEden Downloader.'
     sys.exit(1)
     
-    
-from threading import Thread
-    
-class CPUG:
+class MangaEdenD:
     """Description"""
     
     def __init__(self):
@@ -80,7 +78,7 @@ class CPUG:
             lang = 1
         elif lang == "en-manga":
             lang = 0
-        t = Thread(target=CPUG.download, args=(self,lang,))
+        t = Thread(target=MangaEdenD.download, args=(self,lang,))
         t.start()
         print "Start"
       
@@ -123,6 +121,6 @@ class CPUG:
         
 
 if __name__ == '__main__':
-    CPUG()
+    MangaEdenD()
     gtk.main()
     
