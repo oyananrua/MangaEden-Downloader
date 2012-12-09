@@ -14,7 +14,8 @@ BUILD THE CODE
 For building the code you need Python2 or Python3 installed on your system.
 **Python3 is recommended.**
 
-On Debian-based System you can install it with this Terminal Comand:
+On Debian-based System you can install it with this Terminal Comand
+
 	# apt-get install python
 
 On Arch Linux read the Wiki:
