@@ -3,12 +3,13 @@ MangaEden-Downloader
 
 Simple tool to download manga from http://mangaeden.com
 
-LICENSE
+
+License
 --------------
 
 This code is relased under the GPL version 3 license. See license.txt file. License is available at http://www.gnu.org/licenses/gpl-3.0.txt
 
-BUILD THE CODE
+Building the Code
 --------------
 
 For building the code you need Python2 or Python3 installed on your system.
@@ -22,7 +23,7 @@ On Arch Linux read the Wiki:
 https://wiki.archlinux.org/index.php/Python
 
 
-OTHER DEPENDANCIES
+Other Dependencies
 --------------
 
 This code requires some external dependancies to work properly
@@ -36,7 +37,7 @@ Or simply using pip
 	# pip install requests
 	# pip install pygtk
 
-USING MangaEden-Downloader
+Using MangaEden-Downloader
 --------------
 
 To start MangaEdenD 
